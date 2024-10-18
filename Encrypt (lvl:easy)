@@ -1,0 +1,10 @@
+x = 5
+key = 8
+print(f"x = {x}")
+print(f"key = {key}")
+
+encrypt = x ^ key #Шифрование по ключу
+print(f"encrypt = {encrypt} - зашифрованное число")
+
+decrypt = encrypt ^ key #Расшифрование по ключу
+print(f"decrypt = {decrypt} - расшифрованное число (исходное)")
